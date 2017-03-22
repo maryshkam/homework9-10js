@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>carousel</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/nice-select.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery.jcarousel.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+</head>
+<body>
+<!-- MENU -->
+            <div class="nav">
+                <ul class="menu">
+                    <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Info</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Categories</a>
+                        <ul class="sub-menu">
+                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Category # 1</a></li>
+                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Category # 2</a></li>
+                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Category # 3</a></li>
+                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Category # 4</a></li>
+                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Category # 5</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href="#" class="menu__link">Archives</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+                </ul>
+            </div>
+
+
+<!--Slider-->
+	<div class="slider">
+            <h1>Carousel</h1>
+
+            <div class="jcarousel-wrapper">
+                <div class="jcarousel">
+                    <ul class="jcarousel__list">
+                        <li class="jcarousel__item"><img src="img/img1.jpg"></li>
+                        <li class="jcarousel__item"><img src="img/img2.jpg"></li>
+                        <li class="jcarousel__item"><img src="img/img3.jpg"></li>
+                        <li class="jcarousel__item"><img src="img/img4.jpg"></li>
+                        <li class="jcarousel__item"><img src="img/img5.jpg"></li>
+                        <li class="jcarousel__item"><img src="img/img6.jpg"></li>
+                    </ul>
+                </div>
+
+                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+              	<div class="jcarousel-pagination">
+                    
+                </div>
+
+            
+        </div>
+        </div>
+
+  <!--SELECT-->
+<div class="section-select">
+ 
+  	<select class="select-food">
+  		<option data-display="Food">Food that you prefe</option>
+  		<option value="1">meat</option>
+  		<option value="2">fish</option>
+  		<option value="3">fruit</option>
+  		<option value="4">vegetables</option>
+	</select>
+    
+    <select class="select-drink">
+  		<option data-display="Drinks">Drinks that you prefe</option>
+  		<option value="1">water</option>
+  		<option value="2">juice</option>
+  		<option value="3">bear</option>
+  		<option value="4">alcohol</option>
+	</select>
+</div>
+<!-- JQUERY CHECKBOX -->
+			<div class="check-wrapper">
+                <div class="check-jquery">
+                    <label class="jcheck"><input type="checkbox" name="#j1">Чекбокс на jquery #1</label>
+                    <label class="jcheck"><input type="checkbox" name="#j2">Чекбокс на jquery #2</label>
+                    <label class="jcheck"><input type="checkbox" name="#j3">Чекбокс на jquery #3</label>
+                </div>
+<!-- CSS CHECKBOX -->
+				<div class="check-css">
+                    <div class="box">
+                        <input type="checkbox" name="s1" id="s1">
+                        <label for="s1" class="scheck">Чекбокс на css #1</label>
+                    </div>
+                    <div class="box">
+                        <input type="checkbox" name="s2" id="s2">
+                        <label for="s2" class="scheck">Чекбокс на css #2</label>
+                    </div>
+                    <div class="box">
+                        <input type="checkbox" name="s3" id="s3">
+                        <label for="s3" class="scheck">Чекбокс на css #3</label>
+                    </div>
+                </div>
+                </div>
+
+</body>
+</html>
