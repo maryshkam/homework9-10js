@@ -31,9 +31,12 @@ body {
     .sub-menu {
         background: rgba(2, 2, 2, 0.6);
         list-style: none;
+        /*display: none;*/
         opacity: 0;
         right: 200px;
         top: 150px;
+        position: absolute;
+        z-index: -1;
     }
 
     .menu__item {
@@ -58,14 +61,18 @@ body {
     .menu__link:hover {
         background-color: #222;
         color: #fff;
+
+        
     }
 
     .menu__item:hover>.sub-menu {
+        display: block;
         opacity: 1;
         position: relative;
         right: 0;
-        top: 0;
+        top: 0px;
         transition: 500ms;
+        visibility: visible;
         z-index: 1;
     }
 
